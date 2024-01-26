@@ -197,7 +197,7 @@ class UptimeKumaServer {
     async getMonitorJSONList(userID) {
         let result = {};
 
-        let monitorList = await R.find("monitor", " user_id = ? ORDER BY weight DESC, name", [
+        let monitorList = await R.find("monitor", " user_id = ? ORDER BY created_date DESC, weight DESC, name LIMIT 100", [
             userID,
         ]);
 

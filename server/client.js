@@ -82,7 +82,7 @@ async function sendImportantHeartbeatList(socket, monitorID, toUser = false, ove
         monitor_id = ?
         AND important = 1
         ORDER BY time DESC
-        LIMIT 500
+        LIMIT 1
     `, [
         monitorID,
     ]);

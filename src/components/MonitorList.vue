@@ -50,6 +50,16 @@
                 {{ $t("No Monitors, please") }} <router-link to="/add">{{ $t("add one") }}</router-link>
             </div>
 
+            <div>
+                <p>
+                    Sementara ini, monitor yang bisa dicari dan difilter hanya sekitar 100 monitor terakhir yang diinput.
+                    Monitor lainnya belum bisa dicari, tetapi datanya masih ada dan monitoringnya tetap aktif.
+                    <br>
+                    <br>
+                    <em>by: TS LTIK</em>
+                </p>
+            </div>
+
             <MonitorListItem
                 v-for="(item, index) in sortedMonitorList"
                 :key="index"
