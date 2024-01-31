@@ -52,7 +52,7 @@
 
             <div>
                 <p>
-                    Sementara ini, monitor yang bisa dicari dan difilter hanya sekitar 100 monitor terakhir yang diinput.
+                    Sementara ini, monitor yang bisa dicari dan difilter hanya sekitar 500 monitor terakhir yang diinput.
                     Monitor lainnya belum bisa dicari, tetapi datanya masih ada dan monitoringnya tetap aktif.
                     <br>
                     <br>

@@ -8,7 +8,7 @@
                 Note
             </h4>
             <p>
-                Sementara ini statistik monitor yang ditampilkan hanya sekitar 100 monitor terakhir yang diinput.
+                Sementara ini statistik monitor yang ditampilkan hanya sekitar 500 monitor terakhir yang diinput.
                 Monitor lainnya tidak tampil, tetapi datanya masih ada dan monitoringnya tetap aktif.
                 <br>
                 <br>
